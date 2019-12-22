@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/varde/ontologies/2019/10/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/varde/ontologies/2019/10/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/varde/ontologies/2019/10/untitled-ontology-3"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-3" IRI="http://www.semanticweb.org/varde/ontologies/2019/10/untitled-ontology-3#"/>
+    <Declaration>
+        <DataProperty IRI="#numberOfApartments"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConnectedTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Load"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ESS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Link"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LinkWeight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_1_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_2_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_2_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_1_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_1_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_1_4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ConnectTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ESS2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ESS3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ESS1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_4_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ESS4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_2_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_3_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ESS5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Link_3_5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LinkOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLink"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#ESS"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ESS"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ESS"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ESS"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ESS"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_1_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_1_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_1_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_1_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_2_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_2_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_2_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_3_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_3_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Link"/>
+        <NamedIndividual IRI="#Link_4_5"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS1"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS1"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS1"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS1"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS1"/>
+        <NamedIndividual IRI="#Link_1_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS1"/>
+        <NamedIndividual IRI="#Link_1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS1"/>
+        <NamedIndividual IRI="#Link_1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS1"/>
+        <NamedIndividual IRI="#Link_1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS2"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS2"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS2"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS2"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS2"/>
+        <NamedIndividual IRI="#Link_1_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS2"/>
+        <NamedIndividual IRI="#Link_2_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS2"/>
+        <NamedIndividual IRI="#Link_2_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS2"/>
+        <NamedIndividual IRI="#Link_2_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS3"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS3"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS3"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS3"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS3"/>
+        <NamedIndividual IRI="#Link_1_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS3"/>
+        <NamedIndividual IRI="#Link_2_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS3"/>
+        <NamedIndividual IRI="#Link_3_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS3"/>
+        <NamedIndividual IRI="#Link_3_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS4"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS4"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS4"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS4"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS4"/>
+        <NamedIndividual IRI="#Link_1_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS4"/>
+        <NamedIndividual IRI="#Link_2_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS4"/>
+        <NamedIndividual IRI="#Link_3_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS4"/>
+        <NamedIndividual IRI="#Link_4_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS5"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS5"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS5"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ConnectTo"/>
+        <NamedIndividual IRI="#ESS5"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS5"/>
+        <NamedIndividual IRI="#Link_1_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS5"/>
+        <NamedIndividual IRI="#Link_2_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS5"/>
+        <NamedIndividual IRI="#Link_3_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasLink"/>
+        <NamedIndividual IRI="#ESS5"/>
+        <NamedIndividual IRI="#Link_4_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_1_2"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_1_2"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_1_3"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_1_3"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_1_4"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_1_4"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_1_5"/>
+        <NamedIndividual IRI="#ESS1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_1_5"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_2_3"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_2_3"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_2_4"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_2_4"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_2_5"/>
+        <NamedIndividual IRI="#ESS2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_2_5"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_3_4"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_3_4"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_3_5"/>
+        <NamedIndividual IRI="#ESS3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_3_5"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_4_5"/>
+        <NamedIndividual IRI="#ESS4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LinkOf"/>
+        <NamedIndividual IRI="#Link_4_5"/>
+        <NamedIndividual IRI="#ESS5"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_1_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">60.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_1_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">120.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_1_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">38.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_1_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">85.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_2_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">80.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_2_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">38.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_2_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">45.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_3_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">98.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_3_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">65.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LinkWeight"/>
+        <NamedIndividual IRI="#Link_4_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">63.0</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#connectTo"/>
+        <ObjectProperty IRI="#hasConnectedTo"/>
+    </InverseObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#numberOfApartments"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
